@@ -13,6 +13,7 @@
 		70C089191E29CF4300CFD207 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 70C089171E29CF4300CFD207 /* Main.storyboard */; };
 		70C0891B1E29CF4300CFD207 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 70C0891A1E29CF4300CFD207 /* Assets.xcassets */; };
 		70C0891E1E29CF4300CFD207 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 70C0891C1E29CF4300CFD207 /* LaunchScreen.storyboard */; };
+		70C089271E29CF6B00CFD207 /* LocalAuthentication.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 70C089261E29CF6B00CFD207 /* LocalAuthentication.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,7 @@
 		70C0891A1E29CF4300CFD207 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		70C0891D1E29CF4300CFD207 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		70C0891F1E29CF4300CFD207 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		70C089261E29CF6B00CFD207 /* LocalAuthentication.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = LocalAuthentication.framework; path = System/Library/Frameworks/LocalAuthentication.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -33,6 +35,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				70C089271E29CF6B00CFD207 /* LocalAuthentication.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -44,6 +47,7 @@
 			children = (
 				70C0890D1E29CF4300CFD207 /* TouchID */,
 				70C0890C1E29CF4300CFD207 /* Products */,
+				70C089251E29CF6A00CFD207 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -77,6 +81,14 @@
 				70C0890F1E29CF4300CFD207 /* main.m */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		70C089251E29CF6A00CFD207 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				70C089261E29CF6B00CFD207 /* LocalAuthentication.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
